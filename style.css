@@ -141,10 +141,13 @@ input:valid {
 }
 
 .error {
-    color: var(--red);
     background: url(images/icon-error.svg) no-repeat right 25px center;
     border: 2px solid var(--red);
     margin-bottom: 5px;
+}
+
+.error > .form-input {
+    color: var(--red);
 }
 
 .error-message {
