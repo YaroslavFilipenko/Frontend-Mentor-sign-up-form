@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+</head>
+  <body>
+    <main class="main">
+      <section class="about">
+        <h1 class="about-title">Learn to code by watching others</h1>
+        <p class="about-summary">
+          See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+          but understanding how developers think is invaluable.</p>
+      </section>
+      <section class="register">
+        <div class="register-offer">
+          <h2 class="register-title"><span>Try it free 7 days</span> then $20/mo. thereafter</h2>
+        </div>
+        <form action="#" id="form" class=register-form">
+          <div class="form__input-wrapper">
+            <input type="text" class="form-input" name="first-name" id="first" placeholder="First Name" required>
+          </div>
+          <span class="error-message error-message-first">First Name cannot be empty</span>
+          <div class="form__input-wrapper">
+            <input type="text" class="form-input" name="last-name" id="last" placeholder="Last Name" required>
+          </div>
+          <span class="error-message error-message-last">Last Name cannot be empty</span>
+          <div class="form__input-wrapper">
+            <input type="text" class="form-input" name="email" id="email" placeholder="Email" required>
+          </div>
+          <span class="error-message error-message-email">Looks like this is not an email</span>
+          <div class="form__input-wrapper">
+            <input type="password" class="form-input" name="password" id="password" placeholder="Password" required>
+          </div>
+          <span class="error-message error-message-password">Password cannot be empty</span>
+          <button type="submit" class="form-button" id="button">Claim your free trial</button>
+          <p class="form-button__describe">By clicking the button, you are agreeing to our <a href="#!">Terms and Services</a></p>
+        </form>
+      </section>
+    </main>
+    <script src="script/jQuery(3.6.4)min.js"></script>
+    <script src="script/script.js"></script>
+    <!-- <script src="script/script(jQuery).js"></script> -->
+  </body>
+</html>
